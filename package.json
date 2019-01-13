@@ -1,0 +1,26 @@
+{
+  "name": "sshproxy",
+  "version": "0.1.0",
+  "homepage": "http://github.com/rdrdprgrmr/sshproxy",
+  "author": "<rtrdprgrmr@yahoo.co.jp>",
+  "license": "MIT",
+  "keywords": [
+    "Node.js",
+    "proxy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtrdprgrmr/sshproxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rtrdprgrmr/sshproxy/issues"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 4.0.0"
+  },
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "directories": {}
+}
