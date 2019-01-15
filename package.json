@@ -16,8 +16,7 @@
     "url": "https://github.com/rtrdprgrmr/sshproxy/issues"
   },
   "engines": {
-    "node": ">= 8.0.0",
-    "npm": ">= 4.0.0"
+    "node": ">= 10.14.0"
   },
   "main": "server.js",
   "dependencies": {},
