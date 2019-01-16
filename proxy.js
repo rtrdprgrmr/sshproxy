@@ -24,6 +24,8 @@ var child_process = require('child_process');
 var MUX = require('./mux');
 
 var subprocess = child_process.spawn(`ssh`, [agent_host, agent_path], { cwd: __dirname, stdio: ['pipe', 'pipe', 2] });
+subprocess.on('exit', code => process.exit(code));
+
 var mux = new MUX(subprocess.stdout, subprocess.stdin, (info, readable) => {
     if (info.type === 'http-res') {
         handle_http_res(info, readable);
